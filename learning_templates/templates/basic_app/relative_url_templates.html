@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>WELCOME TO RELATIVE URL TEMPLATES</h1>
+    <!-- matches app name from urls.py in basic_app folder -->
+    <a href="{% url 'basic_app:other'%}">The Other Page</a>
+    <!-- don't leave an extra space or line in template tag -->
+    <a href="{% url 'admin:index'%}">LINK TO ADMIN</a>
+    <a href="{% url 'index' %}">LINK TO INDEX!</a>
+
+
+  </body>
+</html>
