@@ -27,7 +27,7 @@ SECRET_KEY = '(&vysz-^yvtctw6=da38)swgj6v(em462b71*^7p=fwb8ottxs'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-'ashkrelja.pythonanywhere.com',
+    'ashkrelja.pythonanywhere.com',
 ]
 
 
